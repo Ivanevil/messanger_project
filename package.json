@@ -1,8 +1,8 @@
 {
   "name": "messanger_project",
   "version": "1.0.0",
-  "description": "",
-  "main": "tsconfig.js",
+  
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,10 +11,17 @@
     "url": "git+https://github.com/Ivanevil/messanger_project.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ivanevil",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Ivanevil/messanger_project/issues"
   },
-  "homepage": "https://github.com/Ivanevil/messanger_project#readme"
+  "homepage": "https://github.com/Ivanevil/messanger_project#readme",
+  "description": "",
+  "scripts": {
+    "dev": "parcel <your entry file>",
+    "build": "parcel build <your entry file>"
+  }
 }
+
+
